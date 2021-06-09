@@ -9,27 +9,28 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="font.css"></link>
     <link rel="favicon" href="favicon.ico"></link>
 </head>
 
 
+
 <body>
 
-    <div id="home" class="box">
-        <div id="logo" class="centered boxChild object"></div>
-        <form id="entry" class="object" action="/main.html">
-            <label for="uname" id="unamelbl" class="centered">Username:</label><br>
-            <input type="text" id="uname" class="centered boxChild" name="username" placeholder="Unnamed"><br><br>
-            <input type="submit" id="playbtn" class="centered boxChild" value="Play">
-        </form>
-        <h3 class="centered" id="launch">Launching to space...</h3>
-    </div>
+	<div id="menu-main" class="menu centered rmoj-select">
 
-    <div id="discBox" class="box">
-        <a href="https://api.coresdev.ml/starkingdoms/authorize.php?api_key=13365c19-095b-4350-9973-fa2d01a4e3d4&secret=YsQ$NsR_V8MuB$z"><i class="fab fa-discord" id="discLink"></i>Log in with Discord</a>
-    </div>
+    <a href="https://api.coresdev.ml/starkingdoms/authorize.php?api_key=13365c19-095b-4350-9973-fa2d01a4e3d4&secret=YsQ$NsR_V8MuB$z" id="submenu-login" class="submenu rmoj-select"><i class="fab fa-discord rmoj-select"></i> Log in with Discord</a>
+
+		<span id="label-username" class="centered label rmoj-select">Username:</span><br>
+    <input type="text" id="entry-uname" class="centered submenu rmoj-select"><br>
+
+    <img id="banner-main" class="centered rmoj-select" src="./img/banner.png"></img>
+
+
+	</div>
 
     
 </body>
 <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@0ac23ca/css/all.css" rel="stylesheet" type="text/css" />
+<script src="join.js"></script>
 </html>
